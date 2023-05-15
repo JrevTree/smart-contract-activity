@@ -1,0 +1,11 @@
+{
+  "dependencies": {
+    "@solana/web3.js": "^1.75.0",
+    "chai": "^4.3.7",
+    "mocha": "^10.2.0"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^2.0.2",
+    "hardhat": "^2.14.0"
+  }
+}
