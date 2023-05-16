@@ -2,9 +2,46 @@
   "_format": "hh-sol-cache-2",
   "files": {
     "C:\\Users\\JrevTree\\Desktop\\Projects\\Web3\\Solana\\solana_prac1\\contracts\\Token.sol": {
-      "lastModificationDate": 1683992246474,
-      "contentHash": "d32614fd4c0d1189b34e13ca26580e73",
+      "lastModificationDate": 1684166881390,
+      "contentHash": "5eb2a2c1a4be855f92e024ab4d7ca9f8",
       "sourceName": "contracts/Token.sol",
+      "solcConfig": {
+        "version": "0.8.18",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "hardhat/console.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.9"
+      ],
+      "artifacts": [
+        "Token"
+      ]
+    },
+    "C:\\Users\\JrevTree\\Desktop\\Projects\\Web3\\Solana\\solana_prac1\\contracts\\BuyToken20.sol": {
+      "lastModificationDate": 1684086197126,
+      "contentHash": "3f1f5b52e3e98187a3f62dddc22890e5",
+      "sourceName": "contracts/BuyToken20.sol",
       "solcConfig": {
         "version": "0.8.18",
         "settings": {
@@ -33,7 +70,43 @@
         "^0.8.9"
       ],
       "artifacts": [
-        "Token"
+        "IERC20",
+        "TokenPurchase"
+      ]
+    },
+    "C:\\Users\\JrevTree\\Desktop\\Projects\\Web3\\Solana\\solana_prac1\\node_modules\\hardhat\\console.sol": {
+      "lastModificationDate": 1683818412095,
+      "contentHash": "4ff3cd2f6272c9a6516e9ee4f2b967d3",
+      "sourceName": "hardhat/console.sol",
+      "solcConfig": {
+        "version": "0.8.18",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">= 0.4.22 <0.9.0"
+      ],
+      "artifacts": [
+        "console"
       ]
     }
   }
